@@ -1,0 +1,63 @@
+body {
+    background-color: #212121;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1 {
+    color: orange;
+}
+
+form {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: orange;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: orange;
+    color: #212121;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+#results {
+    margin-top: 30px;
+    color: orange;
+}
+
+#weight-guide {
+    margin: 40px auto;
+    padding: 15px;
+    max-width: 300px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+#weight-guide h3 {
+    color: orange;
+}
+
+#weight-guide p {
+    line-height: 1.5;
+}
+
